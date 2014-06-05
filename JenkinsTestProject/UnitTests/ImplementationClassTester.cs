@@ -14,12 +14,12 @@ namespace UnitTests
         [Test]
         public void AddFunctionShouldPass()
         {
-            int a = 10;
-            int b = 10;
+            int a = 5;
+            int b = 5;
 
             IImplementationClass uut = new ImplementationClass();
 
-            Assert.AreEqual(uut.AddTwoNumbers(a,b), 20);
+            Assert.AreEqual(uut.AddTwoNumbers(a,b), 10);
         }
 
     }
